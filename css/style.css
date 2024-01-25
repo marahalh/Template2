@@ -8,6 +8,13 @@ body{
     position: relative;
     perspective: 500px;
 }
+
+.header{
+    /* height: 100px; */
+    background-color: rgba(207, 185, 141,0.3);
+    /* padding: 40px 0; */
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -33,10 +40,7 @@ body{
     transform: scale(2,1);
 }
 /*////////////////////////////////////////////////////////////////////////////////////////*/
-.header{
-    height: 100px;
-    background-color: rgba(207, 185, 141,0.3);
-}
+
 .header-content{
     display: flex;
     justify-content: space-between;
@@ -46,21 +50,23 @@ body{
 }
 .header-logo{
     flex: 1;
-    height: 80px;
+    max-width: 150px;
+    height: 90px;
     }
+
 .header-content nav{
-    flex:10
+    flex:3;
+    
 
 }
 .header-content .header-login{
-    flex:3;
+    flex:1;
 }
 
 .header-li {
     display: inline-block;
     position: relative;
-    padding:10px 10px ;
-    margin: 30px 10px;
+    padding:10px;
     font-size: 20px;
     text-transform: capitalize;
     color:  rgb(62, 20, 20);
