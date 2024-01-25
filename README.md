@@ -1,2 +1,2 @@
 # Template2
-CSS-HTML Template 2
+CSS3-HTML5 Template 2
